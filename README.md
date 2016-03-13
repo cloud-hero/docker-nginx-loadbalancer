@@ -15,6 +15,9 @@ Run image:
 docker run -it -e "CONSUL=$DOCKER_IP:8500" -e "SERVICE=queryname" -p 80:80 cloudhero/nginx-proxy
 ```
 
+CONSUL is the IP address of your Consul service, SERVICE is the query sent to consul which will be distributed across.
+
+
 ## Build your own image
 
 Build with:
