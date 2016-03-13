@@ -40,8 +40,7 @@ You can update `nginx-vhost.conf.ctmpl`  based on your needs as loong as you kee
 
 ## Known Issues
 Currently this image has been tested and works well with Consul Template version 0.5.1
-Latest version of Consul Template returs `{{.Address}}` query from `{{.ServiceAddress}}` which provides wrong upstream IP address
+Latest version of Consul Template returs `{{.Address}}` query from `{{.ServiceAddress}}` which provides wrong upstream IP address.
 
-
-# Read more [here](https://cloudhero.io/blog)
+### Read more [here](https://cloudhero.io/blog)
 References: [here](http://www.maori.geek.nz/post/scalable_architecture_dr_con_docker_registrator_consul_nginx)
