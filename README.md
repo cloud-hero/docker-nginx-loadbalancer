@@ -1,4 +1,4 @@
-#Nginx Load Blancer With Consul Template
+#Nginx Load Balancer With Consul Template
 
 Dockerfile for Nginx load balancer with upstream automatic update using Consul Template
 
