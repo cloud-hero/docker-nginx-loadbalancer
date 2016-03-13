@@ -3,6 +3,7 @@ MAINTAINER andrei@cloudhero.io
 
 RUN apt-get update -qq && apt-get -y install wget unzip
 RUN rm -rf /var/lib/apt/lists/*
+RUN rm /etc/nginx/conf.d/*
 
 #Consul template version and download URL
 ENV CT_VERS 0.5.1
